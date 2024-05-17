@@ -1,0 +1,8 @@
+.flexItem{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.btn{
+    margin-left: 20px;
+}
