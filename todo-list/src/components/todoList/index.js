@@ -10,7 +10,8 @@ function handleChange(e){
   setInputValue(e.target.value)
 }
 
-function handleSubmit(){
+function handleSubmit(e){
+  e.preventDefault()
  // it will copy the array and adds input value at last of the array
   setTodos([...todos, inputValue])
   // when user clicks on submit button, it will clear the input box
